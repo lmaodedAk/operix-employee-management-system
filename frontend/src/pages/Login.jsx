@@ -37,7 +37,7 @@ const Login = () => {
             isValid = true;
         } else if (cleanEmail === 'employee@test.com' && cleanPassword === 'OperixUser2026!') {
             role = 'employee';
-            name = 'Sarah Chen';
+            name = 'Akshat Jain';
             isValid = true;
         } else {
             console.log('Login failed:', { cleanEmail, cleanPassword }); // Debugging
