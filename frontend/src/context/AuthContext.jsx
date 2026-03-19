@@ -8,7 +8,15 @@ export const AuthProvider = ({ children }) => {
     useEffect(() => {
         try {
             const stored = localStorage.getItem("user");
-            if (stored) setUser(JSON.parse(stored));
+            if (stored) {
+                let userData = JSON.parse(stored);
+                // Migration: Update old demo name to new name
+                if (userData.name === "Sarah Chen") {
+                    userData.name = "Akshat Jain";
+                    localStorage.setItem("user", JSON.stringify(userData));
+                }
+                setUser(userData);
+            }
         } catch {
             setUser(null);
         }
