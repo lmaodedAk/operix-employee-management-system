@@ -144,6 +144,8 @@ const AddTaskModal = ({ isOpen, onClose, defaultType = 'Task' }) => {
                         <option value="Me">Me</option>
                         <option value="Team">Entire Team</option>
                         <option value="Akshat Jain">Akshat Jain</option>
+                        <option value="Priya Sharma">Priya Sharma</option>
+                        <option value="Raj Patel">Raj Patel</option>
                         <option value="Amit Shah">Amit Shah</option>
                     </select>
                 </div>

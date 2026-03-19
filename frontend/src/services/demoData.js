@@ -11,7 +11,7 @@ export let DEMO_TEAM = [
     { id: 103, name: 'Arjun Malhotra', role: 'Marketing Lead', department: 'Marketing', status: 'Onboarding', joinDate: '2024-02-01' },
     { id: 104, name: 'Ananya Iyer', role: 'Product Manager', department: 'Product', status: 'Away', joinDate: '2022-11-10' },
     { id: 105, name: 'Rohan Gupta', role: 'HR Specialist', department: 'HR', status: 'Active', joinDate: '2023-06-30' },
-    { id: 106, name: 'Siddharth Varma', role: 'Account Executive', department: 'Sales', status: 'Offline', joinDate: '2023-08-14' },
+    { id: 106, name: 'Raj Patel', role: 'Account Executive', department: 'Sales', status: 'Offline', joinDate: '2023-08-14' },
     { id: 107, name: 'Ishani Reddy', role: 'Frontend Developer', department: 'Engineering', status: 'Busy', joinDate: '2024-01-05' },
     { id: 108, name: 'Karan Singh', role: 'QA Engineer', department: 'Engineering', status: 'Active', joinDate: '2023-09-12' },
     { id: 109, name: 'Aditi Rao', role: 'DevOps Engineer', department: 'Engineering', status: 'Active', joinDate: '2023-05-20' },

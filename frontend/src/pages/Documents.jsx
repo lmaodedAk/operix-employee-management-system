@@ -11,8 +11,8 @@ const Documents = () => {
     const [docs, setDocs] = useState([
         { id: 1, name: 'Q4 Financial Report.pdf', size: '2.4 MB', type: 'pdf', user: 'Akshat Jain' },
         { id: 2, name: 'Employee Handbook v2.1.pdf', size: '5.1 MB', type: 'pdf', user: 'Rahul Bose' },
-        { id: 3, name: 'Product Roadmap 2024.xlsx', size: '1.8 MB', type: 'xlsx', user: 'Amit Shah' },
-        { id: 4, name: 'Brand Guidelines.pdf', size: '12.3 MB', type: 'pdf', user: 'Meera Nair' },
+        { id: 3, name: 'Product Roadmap 2024.xlsx', size: '1.8 MB', type: 'xlsx', user: 'Raj Patel' },
+        { id: 4, name: 'Brand Guidelines.pdf', size: '12.3 MB', type: 'pdf', user: 'Priya Sharma' },
     ]);
 
     const [shareModalOpen, setShareModalOpen] = useState(false);
