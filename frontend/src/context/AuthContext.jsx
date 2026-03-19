@@ -11,7 +11,7 @@ export const AuthProvider = ({ children }) => {
             if (stored) {
                 let userData = JSON.parse(stored);
                 // Migration: Update old demo name to new name
-                if (userData.name === "Sarah Chen") {
+                if (userData.name === "Akshat Jain") {
                     userData.name = "Akshat Jain";
                     localStorage.setItem("user", JSON.stringify(userData));
                 }

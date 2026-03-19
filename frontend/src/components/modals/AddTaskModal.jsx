@@ -143,8 +143,8 @@ const AddTaskModal = ({ isOpen, onClose, defaultType = 'Task' }) => {
                     >
                         <option value="Me">Me</option>
                         <option value="Team">Entire Team</option>
-                        <option value="Sarah Chen">Sarah Chen</option>
-                        <option value="Mike Johnson">Mike Johnson</option>
+                        <option value="Akshat Jain">Akshat Jain</option>
+                        <option value="Amit Shah">Amit Shah</option>
                     </select>
                 </div>
 
